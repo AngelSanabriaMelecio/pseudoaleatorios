@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/AngelSanabriaMelecio/PseudoAleatorios.github.io",
+  "homepage": "https://AngelSanabriaMelecio.github.io/PseudoAleatorios",
   "dependencies": {
     "@stdlib/stats-chi2test": "^0.0.8",
     "@testing-library/jest-dom": "^5.16.5",
@@ -43,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
