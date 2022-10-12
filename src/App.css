@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+#root{
+  display: flex;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +29,63 @@
 .App-link {
   color: #61dafb;
 }
+.navbar{
+  display: flex;
+  flex-direction: column;
+
+}
+label{
+  margin-top: 10px;
+}
+
+.container{
+  padding: 10px 0px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.generatedNumbers{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div{
+  width: 100%;
+}
+.form-row{
+  display: flex;
+  flex-direction: row;
+}
+.generated{
+  margin-top: 7px;
+  margin-right: 7px;
+  flex-direction: row;
+  width: 5rem;
+}
+.ind{
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  margin-right: 10px;
+}
+.pseudo{
+  border: 1px solid #a7a7a7;
+  border-radius: 5px;
+  width: 5rem;
+  text-align: center;
+}
+.half{
+  width: 50%;
+}
+.prueba{
+  display: flex;
+  width: 100%;
+  background-color: #61dafb;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +94,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+table{
+  table-layout: fixed;
+}
+
+table tbody tr th{
+  width: 10rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #a7a7a7;
+}
+table tbody tr td{
+   
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #a7a7a7;
+}
+
+.nav-link{
+  padding: 0 0.5rem;
+}
+
+.space{
+  display:flex;
+  width:100%;
+  flex-direction:row; 
+  justify-content:space-between;
+}
+.sideBar{
+  position: relative;
+  height: 100%;
+}
+button{
+  outline: none;
+  border: 0;
+  width: 100%;
+}
+.selection{
+  padding: 0.5rem ;
+  outline: none;
+  border: 0;
+  width: 100%;
+  background-color: transparent;
+  text-align: start;
+  transition: 0.2s;
+}
+.selection:hover{
+  background-color: #e7e7e7;
+}
+.methodModal{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+p{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0 !important;
+  font-size: small;
+}
+.acept{
+  text-align: center;
+  transition: 0.2s;
+}
+.acept:hover{
+  opacity: 80%;
 }
